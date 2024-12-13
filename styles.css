@@ -1,0 +1,98 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./images/numbersbackground.jpg);
+    background-size: cover; /* or use '100% 100%' for exact fit */
+    background-repeat: no-repeat;
+
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: lightcyan;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(224, 247, 247);
+    background-color: rgb(14, 14, 97);opacity:0.8;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fact-display {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  background-color: aliceblue;
+  margin: 30px 25%;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid black;
+  min-height: 100px; /* Minimum height */
+  max-height: 100px; /* Allows height to expand with content */
+  border-radius: 20px;
+  font-size: 1.75rem;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 250px;
+    width: auto;
+    border: 3px solid rgb(249, 251, 252);
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #608ef3;
+    border: 2px solid #080808a2;
+    border-radius: 20px;
+    transition-duration: 0.1s;
+    width: 20%;
+    opacity: 90%;
+}
+
+button:hover {
+    background-color: #202ab4;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;  
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.userInputContainer input[type=text] {
+    padding: 12px 20px;
+    margin: 20px auto;
+    width: 10%;
+    display: block;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
